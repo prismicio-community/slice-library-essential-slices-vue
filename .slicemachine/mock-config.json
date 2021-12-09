@@ -1,0 +1,129 @@
+{
+  "src/slices": {
+    "CallToAction": {
+      "default-slice": {
+        "primary": {}
+      }
+    },
+    "CustomerLogos": {
+      "default-slice": {
+        "primary": {
+          "eyebrowHeadline": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          },
+          "callToAction": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        },
+        "items": {}
+      }
+    },
+    "PricingTable": {
+      "default-slice": {
+        "primary": {
+          "eyebrowHeadline": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "VideoHighlights": {
+      "default-slice": {
+        "primary": {
+          "eyebrowHeadline": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        },
+        "items": {
+          "videoTitle": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "AlternateGrid": {
+      "default-slice": {
+        "primary": {
+          "eyebrowHeadline": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          },
+          "title": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          },
+          "description": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        },
+        "items": {
+          "title": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          },
+          "description": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "FaqSection": {
+      "default-slice": {
+        "primary": {
+          "eyebrowHeadline": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          },
+          "title": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "CardsCarousel": {
+      "default-slice": {
+        "primary": {
+          "eyebrowHeadline": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        },
+        "items": {}
+      }
+    }
+  }
+}
