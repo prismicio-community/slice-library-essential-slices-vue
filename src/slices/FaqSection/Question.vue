@@ -1,23 +1,23 @@
 <template>
-	<div class="faq-section__question">
-		<button class="faq-section__question__toggler" @click="isOpen = !isOpen">
+	<div class="es-faq-section__question">
+		<button class="es-faq-section__question__toggler" @click="isOpen = !isOpen">
 			<PrismicText
 				:field="title"
 				wrapper="span"
-				class="faq-section__question__toggler__label"
+				class="es-faq-section__question__toggler__label"
 			/>
 			<ChevronIcon
 				:direction="isOpen ? 'up' : 'down'"
 				:aria-hidden="true"
-				class="faq-section__question__toggler__icon"
+				class="es-faq-section__question__toggler__icon"
 			/>
 		</button>
 		<PrismicRichText
 			:field="text"
 			wrapper="div"
-			class="faq-section__question__content"
+			class="es-faq-section__question__content"
 			:class="{
-				'faq-section__question__content--open': isOpen,
+				'es-faq-section__question__content--open': isOpen,
 			}"
 		/>
 	</div>
@@ -32,11 +32,11 @@ export default {
 	},
 	props: {
 		title: {
-			type: Object,
+			type: Array,
 			required: true,
 		},
 		text: {
-			type: Object,
+			type: Array,
 			required: true,
 		},
 	},

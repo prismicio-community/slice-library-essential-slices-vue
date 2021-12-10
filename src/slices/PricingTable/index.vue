@@ -2,34 +2,34 @@
 	<section
 		:data-slice-type="slice.slice_type"
 		:data-slice-variation="slice.variation"
-		class="essential-slice bounded pricing-table"
+		class="essential-slice es-bounded es-pricing-table"
 	>
-		<div class="bounded__content pricing-table__content">
-			<div class="pricing-table__intro">
+		<div class="es-bounded__content es-pricing-table__content">
+			<div class="es-pricing-table__intro">
 				<PrismicText
 					v-if="$prismic.asText(slice.primary.eyebrowHeadline)"
 					:field="slice.primary.eyebrowHeadline"
 					wrapper="p"
-					class="pricing-table__intro__eyebrow"
+					class="es-pricing-table__intro__eyebrow"
 				/>
 				<PrismicText
 					v-if="$prismic.asText(slice.primary.title)"
 					:field="slice.primary.title"
 					wrapper="h2"
-					class="pricing-table__intro__headline"
+					class="es-pricing-table__intro__headline"
 				/>
 				<PrismicRichText
 					v-if="$prismic.asText(slice.primary.description)"
 					:field="slice.primary.description"
 					wrapper="div"
-					class="pricing-table__intro__description"
+					class="es-pricing-table__intro__description"
 				/>
 			</div>
-			<ul v-if="slice.items.length > 0" class="pricing-table__plans">
+			<ul v-if="slice.items.length > 0" class="es-pricing-table__plans">
 				<li
 					v-for="(item, index) in slice.items"
 					:key="$prismic.asText(item.planTitle)"
-					class="pricing-table__plan"
+					class="es-pricing-table__plan"
 				>
 					<PlanCard
 						:variant="index % 2 ? 'white' : 'beige'"
@@ -38,7 +38,7 @@
 						:features="item.features"
 						:call-to-action="item.callToAction"
 						:call-to-action-text="item.callToActionText"
-						class="pricing-table__plan__card"
+						class="es-pricing-table__plan__card"
 					/>
 				</li>
 			</ul>

@@ -1,32 +1,35 @@
 <template>
 	<div
-		class="plan-card"
+		class="es-pricing-table__plan-card"
 		:class="{
-			'plan-card--white': variant === 'white',
-			'plan-card--beige': variant === 'beige',
+			'es-pricing-table__plan-card--white': variant === 'white',
+			'es-pricing-table__plan-card--beige': variant === 'beige',
 		}"
 	>
-		<div class="plan-card__content">
+		<div class="es-pricing-table__plan-card__content">
 			<PrismicText
 				v-if="$prismic.asText(title)"
 				:field="title"
 				wrapper="h3"
-				class="plan-card__content__title"
+				class="es-pricing-table__plan-card__content__title"
 			/>
 			<PrismicText
 				v-if="$prismic.asText(priceOption)"
 				:field="priceOption"
 				wrapper="p"
-				class="plan-card__content__price"
+				class="es-pricing-table__plan-card__content__price"
 			/>
 			<PrismicRichText
 				v-if="$prismic.asText(features)"
 				:field="features"
 				wrapper="div"
-				class="plan-card__content__features"
+				class="es-pricing-table__plan-card__content__features"
 			/>
 		</div>
-		<ButtonLink :field="callToAction" class="plan-card__button">
+		<ButtonLink
+			:field="callToAction"
+			class="es-pricing-table__plan-card__button"
+		>
 			{{ $prismic.asText(callToActionText) || "Learn more…" }}
 		</ButtonLink>
 	</div>

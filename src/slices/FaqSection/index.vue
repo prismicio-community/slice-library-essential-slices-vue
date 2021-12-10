@@ -2,49 +2,49 @@
 	<section
 		:data-slice-type="slice.slice_type"
 		:data-slice-variation="slice.variation"
-		class="essential-slice bounded faq-section"
+		class="essential-slice es-bounded es-faq-section"
 	>
-		<div class="bounded__content faq-section__content">
-			<div class="faq-section__intro">
+		<div class="es-bounded__content es-faq-section__content">
+			<div class="es-faq-section__intro">
 				<PrismicText
 					v-if="$prismic.asText(slice.primary.eyebrowHeadline)"
 					:field="slice.primary.eyebrowHeadline"
 					wrapper="p"
-					class="faq-section__intro__eyebrow"
+					class="es-faq-section__intro__eyebrow"
 				/>
 				<PrismicText
 					v-if="$prismic.asText(slice.primary.title)"
 					:field="slice.primary.title"
 					wrapper="h2"
-					class="faq-section__intro__headline"
+					class="es-faq-section__intro__headline"
 				/>
 				<PrismicRichText
 					v-if="$prismic.asText(slice.primary.description)"
 					:field="slice.primary.description"
 					wrapper="div"
-					class="faq-section__intro__description"
+					class="es-faq-section__intro__description"
 				/>
 			</div>
 			<div
-				class="faq-section__primary-content"
+				class="es-faq-section__primary-content"
 				:class="{
-					'faq-section__primary-content--with-image':
+					'es-faq-section__primary-content--with-image':
 						slice.primary.optionalImage.url,
 				}"
 			>
 				<PrismicImage
 					v-if="slice.primary.optionalImage.url"
 					:field="slice.primary.optionalImage"
-					class="faq-section__primary-content__image"
+					class="es-faq-section__primary-content__image"
 				/>
 				<ul
 					v-if="slice.items.length > 0"
-					class="faq-section__primary-content__questions"
+					class="es-faq-section__primary-content__questions"
 				>
 					<li
 						v-for="item in slice.items"
 						:key="$prismic.asText(item.title)"
-						class="faq-section__question"
+						class="es-faq-section__question"
 					>
 						<Question :title="item.title" :text="item.text" />
 					</li>

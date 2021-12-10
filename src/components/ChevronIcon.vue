@@ -1,12 +1,12 @@
 <template>
 	<svg
 		viewBox="0 0 12 8"
-		class="chevron-icon"
+		class="es-chevron-icon"
 		:class="{
-			'chevron-icon--up': direction === 'up',
-			'chevron-icon--down': direction === 'down',
-			'chevron-icon--left': direction === 'left',
-			'chevron-icon--right': direction === 'right',
+			'es-chevron-icon--up': direction === 'up',
+			'es-chevron-icon--down': direction === 'down',
+			'es-chevron-icon--left': direction === 'left',
+			'es-chevron-icon--right': direction === 'right',
 		}"
 	>
 		<g fill="none">

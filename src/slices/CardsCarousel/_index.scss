@@ -1,6 +1,6 @@
 @use "../../mixins" as *;
 
-.cards-carousel {
+.es-cards-carousel {
 	background-color: #fff;
 	color: #333;
 
@@ -67,7 +67,6 @@
 
 		&__cards {
 			grid-column: 1 / -1;
-			// overflow: hidden;
 		}
 
 		&__control {
@@ -81,9 +80,6 @@
 			@include md {
 				height: 3rem;
 				width: 3rem;
-			}
-
-			@include md {
 				position: absolute;
 				top: 50%;
 				transform: translateY(-50%);

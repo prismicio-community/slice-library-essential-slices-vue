@@ -1,9 +1,10 @@
 <template>
 	<PrismicLink
-		class="button"
+		:field="field"
+		class="es-button"
 		:class="{
-			'button--black': variant === 'black',
-			'button--green': variant === 'green',
+			'es-button--black': variant === 'black',
+			'es-button--green': variant === 'green',
 		}"
 	>
 		<slot />
@@ -17,6 +18,10 @@ export default {
 			type: String,
 			default: "black",
 			validator: (value) => ["black", "green"].includes(value),
+		},
+		field: {
+			type: Object,
+			required: true,
 		},
 	},
 };

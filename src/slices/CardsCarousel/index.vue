@@ -2,75 +2,78 @@
 	<section
 		:data-slice-type="slice.slice_type"
 		:data-slice-variation="slice.variation"
-		class="essential-slice bounded cards-carousel"
+		class="essential-slice es-bounded es-cards-carousel"
 	>
-		<div class="bounded__content cards-carousel__content">
-			<div class="cards-carousel__intro">
+		<div class="es-bounded__content es-cards-carousel__content">
+			<div class="es-cards-carousel__intro">
 				<PrismicText
 					v-if="$prismic.asText(slice.primary.eyebrowHeadline)"
 					:field="slice.primary.eyebrowHeadline"
 					wrapper="p"
-					class="cards-carousel__intro__eyebrow"
+					class="es-cards-carousel__intro__eyebrow"
 				/>
 				<PrismicText
 					v-if="$prismic.asText(slice.primary.title)"
 					:field="slice.primary.title"
 					wrapper="h2"
-					class="cards-carousel__intro__headline"
+					class="es-cards-carousel__intro__headline"
 				/>
 				<PrismicRichText
 					v-if="$prismic.asText(slice.primary.description)"
 					:field="slice.primary.description"
 					wrapper="div"
-					class="cards-carousel__intro__description"
+					class="es-cards-carousel__intro__description"
 				/>
 			</div>
-			<div v-if="slice.items.length" class="cards-carousel__carousel">
-				<div ref="slider" class="cards-carousel__carousel__cards keen-slider">
+			<div v-if="slice.items.length" class="es-cards-carousel__carousel">
+				<div
+					ref="slider"
+					class="es-cards-carousel__carousel__cards keen-slider"
+				>
 					<div
 						v-for="(item, index) in items"
 						:key="`${$prismic.asText(item.title)}-${index}`"
-						class="cards-carousel__card keen-slider__slide"
+						class="es-cards-carousel__card keen-slider__slide"
 					>
 						<PrismicImage
 							v-if="item.image.url.url"
 							:field="item.image.url"
-							class="cards-carousel__card__image"
+							class="es-cards-carousel__card__image"
 						/>
 						<PrismicText
 							v-if="$prismic.asText(item.title)"
 							:field="item.title"
 							wrapper="h3"
-							class="cards-carousel__card__title"
+							class="es-cards-carousel__card__title"
 						/>
 						<PrismicRichText
 							v-if="$prismic.asText(item.content)"
 							:field="item.content"
 							wrapper="div"
-							class="cards-carousel__card__content"
+							class="es-cards-carousel__card__content"
 						/>
 					</div>
 				</div>
 				<button
 					aria-label="Previous card"
-					class="cards-carousel__carousel__control cards-carousel__carousel__control--prev"
+					class="es-cards-carousel__carousel__control es-cards-carousel__carousel__control--prev"
 					@click="prev"
 				>
 					<ChevronIcon
 						direction="left"
 						:aria-hidden="true"
-						class="cards-carousel__carousel__control__icon"
+						class="es-cards-carousel__carousel__control__icon"
 					/>
 				</button>
 				<button
 					aria-label="Next card"
-					class="cards-carousel__carousel__control cards-carousel__carousel__control--next"
+					class="es-cards-carousel__carousel__control es-cards-carousel__carousel__control--next"
 					@click="next"
 				>
 					<ChevronIcon
 						direction="right"
 						:aria-hidden="true"
-						class="cards-carousel__carousel__control__icon"
+						class="es-cards-carousel__carousel__control__icon"
 					/>
 				</button>
 			</div>

@@ -13,7 +13,9 @@
 @use "./slices/CardsCarousel";
 @use "./slices/CustomerLogos";
 @use "./slices/FaqSection";
+@use "./slices/ImagesSlider";
 @use "./slices/PricingTable";
+@use "./slices/TestimonialsSlider";
 @use "./slices/VideoHighlights";
 
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
@@ -22,7 +24,7 @@
 	font-family: "Inter", system-ui, sans-serif;
 }
 
-.bounded {
+.es-bounded {
 	padding: 8vw 2rem;
 
 	&__content {
