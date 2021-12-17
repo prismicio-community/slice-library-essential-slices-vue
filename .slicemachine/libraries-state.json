@@ -295,7 +295,13 @@
           "isDirectory": true,
           "extension": "vue"
         },
-        "screenshotPaths": {}
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/Users/angeloashmore/projects/prismic/slice-library-essential-slices-vue/.slicemachine/assets/src/slices/AlternateGrid/default-slice/preview.png",
+            "width": 800,
+            "height": 1312
+          }
+        }
       },
       "call_to_action": {
         "library": "src/slices",
@@ -399,7 +405,13 @@
           "isDirectory": true,
           "extension": "vue"
         },
-        "screenshotPaths": {}
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/Users/angeloashmore/projects/prismic/slice-library-essential-slices-vue/.slicemachine/assets/src/slices/CallToAction/default-slice/preview.png",
+            "width": 800,
+            "height": 451
+          }
+        }
       },
       "cards_carousel": {
         "library": "src/slices",
@@ -612,7 +624,13 @@
           "isDirectory": true,
           "extension": "vue"
         },
-        "screenshotPaths": {}
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/Users/angeloashmore/projects/prismic/slice-library-essential-slices-vue/.slicemachine/assets/src/slices/CardsCarousel/default-slice/preview.png",
+            "width": 800,
+            "height": 695
+          }
+        }
       },
       "customer_logos": {
         "library": "src/slices",
@@ -804,7 +822,13 @@
           "isDirectory": true,
           "extension": "vue"
         },
-        "screenshotPaths": {}
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/Users/angeloashmore/projects/prismic/slice-library-essential-slices-vue/.slicemachine/assets/src/slices/CustomerLogos/default-slice/preview.png",
+            "width": 800,
+            "height": 403
+          }
+        }
       },
       "faq_section": {
         "library": "src/slices",
@@ -959,7 +983,13 @@
           "isDirectory": true,
           "extension": "vue"
         },
-        "screenshotPaths": {}
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/Users/angeloashmore/projects/prismic/slice-library-essential-slices-vue/.slicemachine/assets/src/slices/FaqSection/default-slice/preview.png",
+            "width": 800,
+            "height": 483
+          }
+        }
       },
       "images_slider": {
         "library": "src/slices",
@@ -1155,7 +1185,13 @@
           "isDirectory": true,
           "extension": "vue"
         },
-        "screenshotPaths": {}
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/Users/angeloashmore/projects/prismic/slice-library-essential-slices-vue/.slicemachine/assets/src/slices/ImagesSlider/default-slice/preview.png",
+            "width": 800,
+            "height": 540
+          }
+        }
       },
       "pricing_table": {
         "library": "src/slices",

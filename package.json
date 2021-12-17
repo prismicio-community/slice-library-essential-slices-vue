@@ -34,6 +34,6 @@
 		"prettier": "^2.5.1",
 		"prettier-plugin-jsdoc": "^0.3.30",
 		"sass": "^1.44.0",
-		"slice-machine-ui": "0.1.2-slicecanvas.4"
+		"slice-machine-ui": "0.1.2-slicecanvas.6"
 	}
 }
