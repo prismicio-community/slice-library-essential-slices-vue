@@ -1422,7 +1422,13 @@
           "isDirectory": true,
           "extension": "vue"
         },
-        "screenshotPaths": {}
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/Users/angeloashmore/projects/prismic/slice-library-essential-slices-vue/.slicemachine/assets/src/slices/PricingTable/default-slice/preview.png",
+            "width": 800,
+            "height": 1332
+          }
+        }
       },
       "testimonials_slider": {
         "library": "src/slices",
@@ -1617,7 +1623,13 @@
           "isDirectory": true,
           "extension": "vue"
         },
-        "screenshotPaths": {}
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/Users/angeloashmore/projects/prismic/slice-library-essential-slices-vue/.slicemachine/assets/src/slices/TestimonialsSlider/default-slice/preview.png",
+            "width": 800,
+            "height": 674
+          }
+        }
       },
       "video_highlights": {
         "library": "src/slices",
@@ -1812,7 +1824,13 @@
           "isDirectory": true,
           "extension": "vue"
         },
-        "screenshotPaths": {}
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/Users/angeloashmore/projects/prismic/slice-library-essential-slices-vue/.slicemachine/assets/src/slices/VideoHighlights/default-slice/preview.png",
+            "width": 800,
+            "height": 1124
+          }
+        }
       }
     }
   }
