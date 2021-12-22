@@ -1,5 +1,5 @@
 {
 	"name": "Essential Slices",
-	"sliceCanvasURL": "https://slice-library-essential-slices-nuxt.netlify.app/preview",
+	"sliceCanvasURL": "https://slice-library-essential-slices-nuxt.netlify.app/canvas",
 	"libraryPath": "@/src/slices"
 }
