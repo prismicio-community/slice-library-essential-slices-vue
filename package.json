@@ -15,25 +15,25 @@
 		"format": "prettier --write ."
 	},
 	"dependencies": {
-		"keen-slider": "^6.3.4"
+		"keen-slider": "^6.6.3"
 	},
 	"peerDependencies": {
 		"@prismicio/vue": "^2.1.0"
 	},
 	"devDependencies": {
 		"@nuxtjs/prismic": "^1.4.0",
-		"@prismicio/slice-canvas-renderer-vue": "0.0.7",
+		"@prismicio/slice-simulator-vue": "0.1.0",
 		"@prismicio/vue": "^2.1.0",
-		"concurrently": "^6.4.0",
-		"core-js": "^3.19.3",
-		"eslint": "^8.4.1",
+		"concurrently": "^7.0.0",
+		"core-js": "^3.20.3",
+		"eslint": "^8.7.0",
 		"eslint-config-prettier": "^8.3.0",
 		"eslint-plugin-prettier": "^4.0.0",
-		"eslint-plugin-vue": "^8.2.0",
+		"eslint-plugin-vue": "^8.3.0",
 		"nuxt": "^2.15.8",
 		"prettier": "^2.5.1",
 		"prettier-plugin-jsdoc": "^0.3.30",
-		"sass": "^1.44.0",
+		"sass": "^1.48.0",
 		"slice-machine-ui": "0.1.2-slicecanvas.6"
 	}
 }

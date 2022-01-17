@@ -1,20 +1,20 @@
 <template>
-	<SliceCanvasRenderer v-slot="{ slices }" :state="state">
+	<SliceSimulator v-slot="{ slices }" :state="state">
 		<SliceZone
 			:slices="slices"
 			:resolver="({ sliceName }) => sliceName.replace(/_/g, '-')"
 		/>
-	</SliceCanvasRenderer>
+	</SliceSimulator>
 </template>
 
 <script>
-import { SliceCanvasRenderer } from "@prismicio/slice-canvas-renderer-vue";
+import { SliceSimulator } from "@prismicio/slice-simulator-vue";
 
 import state from "~~/.slicemachine/libraries-state.json";
 
 export default {
 	components: {
-		SliceCanvasRenderer,
+		SliceSimulator,
 	},
 	data() {
 		return { state };
