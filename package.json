@@ -22,7 +22,7 @@
 	},
 	"devDependencies": {
 		"@nuxtjs/prismic": "^1.4.0",
-		"@prismicio/slice-simulator-vue": "0.1.0",
+		"@prismicio/slice-simulator-vue": "0.1.2",
 		"@prismicio/vue": "^2.1.0",
 		"concurrently": "^7.0.0",
 		"core-js": "^3.20.3",
