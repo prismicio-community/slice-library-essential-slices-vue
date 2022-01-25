@@ -7,8 +7,8 @@
 		/>
 		<figcaption class="es-testimonials-slider__slide__testimonial">
 			<PrismicRichText
-				v-if="$prismic.asText(description)"
-				:field="description"
+				v-if="$prismic.asText(testimonial)"
+				:field="testimonial"
 				wrapper="div"
 				class="es-testimonials-slider__slide__testimonial__content"
 			/>
